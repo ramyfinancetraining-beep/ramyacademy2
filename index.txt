@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>محمد رامي - خبير مالي ومدرب معتمد | Ramy Academy</title>
+  <meta name="description" content="خبير ومدير مالي بخبرة 25+ سنة. برامج تدريبية عملية في المحاسبة المالية والدورة المستندية الكاملة. احجز مقعدك الآن." />
+  <meta property="og:title" content="محمد رامي - خبير مالي ومدرب معتمد" />
+  <meta property="og:description" content="تعلّم المحاسبة الدفترية والإلكترونية كأنك في قلب شركة حقيقية.. واختصر سنوات من التخبط في 6 جلسات عمل لايف!" />
+  <meta property="og:type" content="website" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Cairo', sans-serif;
+      background-color: #f8fafc;
+    }
+
+    .brand-navy {
+      background-color: #0D1F4E;
+    }
+
+    .text-brand-navy {
+      color: #0D1F4E;
+    }
+
+    .border-brand-navy {
+      border-color: #0D1F4E;
+    }
+
+    .brand-gold {
+      background-color: #D4AF37;
+    }
+
+    .text-brand-gold {
+      color: #D4AF37;
+    }
+
+    .border-brand-gold {
+      border-color: #D4AF37;
+    }
+
+    .navy-gradient {
+      background: linear-gradient(135deg, #0D1F4E 0%, #07112a 100%);
+    }
+
+    .gold-gradient {
+      background: linear-gradient(135deg, #D4AF37 0%, #AA841A 100%);
+    }
+
+    .countdown-box {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 12px;
+      padding: 12px 20px;
+      min-width: 80px;
+    }
+
+    .countdown-number {
+      font-size: 2.25rem;
+      font-weight: 800;
+      color: #D4AF37;
+      line-height: 1;
+    }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease, padding 0.4s ease;
+    }
+
+    .faq-answer.open {
+      max-height: 500px;
+      padding-top: 16px;
+    }
+
+    .faq-icon {
+      transition: transform 0.3s ease;
+    }
+
+    .faq-item.open .faq-icon {
+      transform: rotate(180deg);
+    }
+
+    .float-whatsapp {
+      position: fixed;
+      bottom: 24px;
+      left: 24px;
+      z-index: 50;
+      background: #25d366;
+      color: white;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      text-decoration: none;
+    }
+
+    .float-whatsapp:hover {
+      transform: scale(1.1) rotate(-5deg);
+      box-shadow: 0 6px 25px rgba(37, 211, 102, 0.6);
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: all 0.8s ease;
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .btn-gold {
+      background: linear-gradient(135deg, #D4AF37 0%, #AA841A 100%);
+      color: #0D1F4E;
+      font-weight: 800;
+      padding: 16px 36px;
+      border-radius: 9999px;
+      display: inline-block;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 15px rgba(212, 175, 55, 0.4);
+      text-decoration: none;
+    }
+
+    .btn-gold:hover {
+      transform: translateY(-3px) scale(1.02);
+      box-shadow: 0 8px 25px rgba(212, 175, 55, 0.6);
+    }
+
+    .btn-outline {
+      border: 2px solid #D4AF37;
+      color: #D4AF37;
+      font-weight: 700;
+      padding: 14px 32px;
+      border-radius: 9999px;
+      display: inline-block;
+      transition: all 0.3s ease;
+      text-decoration: none;
+    }
+
+    .btn-outline:hover {
+      background: #D4AF37;
+      color: #0D1F4E;
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+
+<body class="text-gray-800">
+
+  <a href="https://wa.me/201271411127" target="_blank" class="float-whatsapp" title="تواصل مباشرة عبر واتساب">💬</a>
+
+  <div class="bg-amber-500 text-gray-900 text-center font-bold py-3 px-4 text-sm md:text-base flex flex-col items-center justify-center gap-2">
+    <span>🔥 خريج أو محاسب مبتدئ في مصر أو السعودية؟ خصم 33% على باقة المحاسب المحترف لفترة محدودة فقط!</span>
+    <img src="logo.png" class="h-12 w-auto object-contain mt-4" />
+  </div>
+
+  <header class="navy-gradient text-white min-h-screen flex flex-col items-center justify-center text-center p-6 relative overflow-hidden">
+    <div class="absolute inset-0 opacity-5" style="background-image: url('data:image/svg+xml,%3Csvg width=&quot;60&quot; height=&quot;60&quot; viewBox=&quot;0 0 60 60&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;%3E%3Cpath d=&quot;M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z&quot; fill=&quot;%23ffffff&quot; fill-opacity=&quot;1&quot; fill-rule=&quot;evenodd&quot;%3E%3C/path%3E%3C/svg%3E');"></div>
+
+    <div class="relative z-10 max-w-4xl mx-auto">
+      <div class="mb-4">
+        <svg class="w-20 h-20 mx-auto fill-current text-brand-gold" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <text x="50%" y="65%" font-family="'Times New Roman', serif" font-size="45" font-weight="bold" text-anchor="middle">MR</text>
+          <polygon points="50,75 55,80 50,85 45,80" />
+        </svg>
+        <p class="text-xs uppercase tracking-widest text-gray-400 mt-1">Ramy Accounting Academy</p>
+      </div>
+
+      <h1 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">محمد رامي</h1>
+
+      <p class="text-xl md:text-3xl text-brand-gold font-bold mb-8 max-w-3xl mx-auto leading-relaxed">
+        🎯 تعلّم المحاسبة كأنك في قلب شركة حقيقية… واختصر سنوات من التخبط في 6 جلسات عملية فقط!
+      </p>
+
+      <div class="max-w-2xl mx-auto mb-10 px-2">
+        <div class="bg-slate-900/80 p-2 rounded-2xl border-2 border-brand-gold/40 shadow-2xl overflow-hidden aspect-video relative">
+          <video class="w-full h-full rounded-xl object-cover" controls poster="video-poster.jpg">
+            <source src="intro.mp4" type="video/mp4" />
+            متصفحك لا يدعم تشغيل الفيديو الحصري.
+          </video>
+        </div>
+        <p class="text-xs text-gray-400 mt-2">◀️ شاهد هذا الفيديو التعريفي القصير لتتعرف على المنهج العملي المتبع</p>
+      </div>
+
+      <div class="relative inline-block mb-6">
+        <div class="absolute inset-0 border-4 border-brand-gold rounded-2xl transform rotate-3 scale-102 opacity-30"></div>
+        <img src="profile.png"
+          alt="الأستاذ محمد رامي - مدير مالي وخبير محاسبي" class="w-64 h-80 object-cover rounded-2xl shadow-2xl relative z-10 border-4 border-white/10 mx-auto" />
+      </div>
+
+      <p class="text-lg md:text-xl text-gray-300 font-semibold mb-1">مدير مالي</p>
+      <p class="text-sm text-gray-400 mb-8">
+        خبير ومدرب معتمد من مركز الدراسات المالية والتجارية بكلية التجارة - جامعة بني سويف
+      </p>
+
+      <div class="flex flex-col sm:flex-row gap-4 justify-center items-center mt-4">
+        <a href="https://wa.me/201271411127?text=مرحباً%20أستاذ%20محمد،%20أريد%20حجز%20جلسة%20الاستشارة%20المجانية"
+          target="_blank" class="btn-gold text-lg w-full sm:w-auto">
+          📲 احجز جلسة استشارة مجانية الآن
+        </a>
+        <a href="#offer" class="btn-outline text-lg w-full sm:w-auto">
+          ⚡ اقتنص الباقة الذهبية الآن مقابل خصم 33%
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <section class="bg-gray-100 py-8 border-b border-gray-200">
+    <div class="max-w-6xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+      <div class="p-2">
+        <p class="text-3xl md:text-4xl font-extrabold text-brand-navy">25+ سنة</p>
+        <p class="text-sm text-gray-600 font-medium mt-1">من الخبرة الميدانية والاستشارات</p>
+      </div>
+      <div class="p-2">
+        <p class="text-3xl md:text-4xl font-extrabold text-brand-navy">1000+</p>
+        <p class="text-sm text-gray-600 font-medium mt-1">خريج ومتدرب جاهز لسوق العمل</p>
+      </div>
+      <div class="p-2">
+        <p class="text-3xl md:text-4xl font-extrabold text-brand-navy">3 دول</p>
+        <p class="text-sm text-gray-600 font-medium mt-1">خبرة عملية بمصر، السعودية، والإمارات</p>
+      </div>
+      <div class="p-2">
+        <p class="text-3xl md:text-4xl font-extrabold text-brand-navy">100%</p>
+        <p class="text-sm text-gray-600 font-medium mt-1">تطبيق عملي على حالات حقيقية</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="bio" class="py-16 px-6 max-w-4xl mx-auto">
+    <div class="bg-white p-8 md:p-12 rounded-3xl shadow-xl border border-gray-100">
+      <h2 class="text-3xl font-bold text-gray-950 mb-6 text-center relative pb-3">
+        لماذا تتعلم مع محمد رامي؟
+        <span class="absolute bottom-0 inset-x-0 mx-auto w-16 h-1 brand-gold rounded"></span>
+      </h2>
+      <p class="text-gray-700 leading-relaxed text-lg mb-6 text-justify">
+        لم يبدأ مساري المهني من المكاتب المكيفة، بل تدرجتُ في المبيعات الميدانية والتوزيع لشركات السيراميك والمواد
+        الغذائية، وهو ما منحني فهماً حقيقياً وعميقاً لكيفية حركة الأموال والدورة المستندية والبيعية على أرض
+        الواقع.
+        هذا الدمج النادر بين الفهم التجاري والتمكن المحاسبي تدرجت به حتى شغلت منصب <strong>المدير المالي</strong> لشركات
+        استشارية إقليمية كبرى ومراجعة حسابات مراكز طبية عملاقة.
+      </p>
+      <p class="text-gray-700 leading-relaxed text-lg text-justify">
+        على مدار أكثر من 20 عاماً في التدريب المهني، تخصصتُ في أمر واحد:
+        <strong>سد الفجوة السحيقة بين ما تدرسه في مدرجات الجامعات، وبين ما يطلبه منك المدير أو صاحب العمل فعلياً</strong>.
+        أنا لا ألقّن نظريات… أنا أنقل إليك عصارة ربع قرن من الممارسة الميدانية لتختصر سنوات التخبط.
+      </p>
+    </div>
+  </section>
+
+  <section class="py-20 bg-slate-950 text-white relative overflow-hidden">
+    <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#D4AF37_1px,transparent_1px)] [background-size:16px_16px]"></div>
+    <div class="max-w-4xl mx-auto px-6 text-center relative z-10">
+      <h2 class="text-3xl md:text-5xl font-bold mb-6 text-red-400 reveal">المشكلة الواقعية التي تواجهها في سوق العمل</h2>
+      <p class="text-xl text-gray-300 mb-12 max-w-2xl mx-auto">
+        تتخّرج من كلية التجارة محملاً بمئات النظريات، وتصطدم في أول مقابلة عمل بأسئلة وأنظمة لم نسمع عنها يوماً. المشكلة لا تكمن في ذكائك، بل في تطبيق العلم العملي.
+      </p>
+
+      <div class="bg-red-950/30 border-2 border-red-500/30 rounded-3xl p-8 mb-12 reveal">
+        <p class="text-2xl font-bold text-red-300 mb-2">💡 الحقيقة الواقعية لـ 90% من الخريجين:</p>
+        <p class="text-lg text-gray-200">
+          المدير لن يطلب منك تعريف "الأصول"… بل سيعطيك فاتورة مبيعات مركبة على نظام ERP، ويسألك عن توجيه القيد الصحيح، ويريد منك ميزان مراجعة بلا أخطاء!
+        </p>
+      </div>
+
+      <p class="text-2xl font-bold text-brand-gold mb-6 reveal">
+        أغلب الدورات التعليمية تقع في 3 أخطاء شائعة:
+      </p>
+
+      <div class="grid md:grid-cols-3 gap-6 reveal text-right">
+        <div class="bg-slate-900 p-6 rounded-2xl border border-gray-800 hover:border-red-500/50 transition">
+          <div class="text-3xl mb-3">❌ شرح نظري بحت</div>
+          <p class="text-sm text-gray-400">
+            حفظ القيود صمّاً دون فهم طبيعة الحسابات والأثر المالي على المركز المالي للشركة.
+          </p>
+        </div>
+        <div class="bg-slate-900 p-6 rounded-2xl border border-gray-800 hover:border-red-500/50 transition">
+          <div class="text-3xl mb-3">❌ أمثلة مختَرَعة بسيطة</div>
+          <p class="text-sm text-gray-400">
+            العمل على أمثلة مبسطة جداً من كتاب جامعي لا تشبه دفاتر الشركات الحقيقية بأي شكل.
+          </p>
+        </div>
+        <div class="bg-slate-900 p-6 rounded-2xl border border-gray-800 hover:border-red-500/50 transition">
+          <div class="text-3xl mb-3">❌ تجاهل التكنولوجيا</div>
+          <p class="text-sm text-gray-400">
+            تجاهل تام لبرامج ERP التي أصبحت شرطاً أساسياً للتوظيف اليوم.
+          </p>
+        </div>
+      </div>
+
+      <p class="mt-12 text-2xl md:text-3xl font-extrabold text-brand-gold reveal">
+        لهذا صممت نظاماً تعليمياً مخصصاً يضعك داخل ".Company Real"
+        وتُجرب العمليات كما تحدث في الشركات الواقعية، من اليوم الأول.
+      </p>
+    </div>
+  </section>
+
+  <section class="py-16 bg-gray-50 border-b border-gray-100">
+    <div class="max-w-4xl mx-auto px-6 reveal flex justify-center">
+      <div class="bg-white p-3 rounded-2xl shadow-xl border border-gray-100 w-full md:w-2/3">
+        <img src="train.jpg" alt="محمد رامي في قاعة التدريب" class="w-full h-auto rounded-xl" />
+      </div>
+    </div>
+  </section>
+
+  <section class="py-16 bg-white border-b border-gray-100">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold text-gray-900 mb-2 reveal">الأنظمة والبرامج المحاسبية التي نستخدمها</h2>
+      <p class="text-gray-600 mb-12 max-w-xl mx-auto text-sm md:text-base">
+        لن تدرس دفترياً فقط، بل ستتعرف على آليات العمل وأسس التوجيه على أقوى البرامج العالمية والمحلية المطلوبة في الشركات:
+      </p>
+
+      <div class="flex flex-wrap justify-center gap-4 md:gap-8 opacity-80 max-w-4xl mx-auto">
+        <span class="bg-gray-100 text-gray-800 font-bold px-5 py-3 rounded-xl border border-gray-200 shadow-sm hover:text-blue-600 transition">
+          Odoo ERP
+        </span>
+        <span class="bg-gray-100 text-gray-800 font-bold px-5 py-3 rounded-xl border border-gray-200 shadow-sm hover:text-green-600 transition">
+          QuickBooks
+        </span>
+        <span class="bg-gray-100 text-gray-800 font-bold px-5 py-3 rounded-xl border border-gray-200 shadow-sm hover:text-indigo-600 transition">
+          Sage 50 / Peachtree
+        </span>
+        <span class="bg-gray-100 text-gray-800 font-bold px-5 py-3 rounded-xl border border-gray-200 shadow-sm hover:text-purple-600 transition">
+          Daftara (دفترة)
+        </span>
+        <span class="bg-gray-100 text-gray-800 font-bold px-5 py-3 rounded-xl border border-gray-200 shadow-sm hover:text-blue-500 transition">
+          Qoyod (قيود)
+        </span>
+        <span class="bg-gray-100 text-gray-800 font-bold px-5 py-3 rounded-xl border border-gray-200 shadow-sm hover:text-teal-600 transition">
+          Wafeq (وافق)
+        </span>
+        <span class="bg-gray-100 text-gray-800 font-bold px-5 py-3 rounded-xl border border-gray-200 shadow-sm hover:text-emerald-600 transition">
+          Microsoft Excel للمحاسبين
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <section id="programs" class="py-20 px-6 max-w-6xl mx-auto">
+    <h2 class="text-3xl md:text-5xl font-bold text-center mb-4 text-gray-950 reveal">البرامج والمؤلفات الأساسية</h2>
+    <p class="text-center text-gray-600 mb-16 text-lg max-w-2xl mx-auto reveal">
+      صُممت خصيصاً كمنظومة واحدة متكاملة لتأسيسك وتأهيلك بشكل سريع ومباشر للنتائج الفورية.
+    </p>
+
+    <div class="grid md:grid-cols-2 gap-8 items-stretch">
+      <div class="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 reveal flex flex-col justify-between transform hover:-translate-y-1 transition duration-300">
+        <div>
+          <div class="brand-navy text-white p-8 text-center relative">
+            <div class="text-6xl mb-4">🎓</div>
+            <h3 class="text-2xl md:text-3xl font-bold mb-1">دورة "من القيد إلى القوائم"</h3>
+            <p class="text-brand-gold font-bold text-sm">برنامج تدريبي عملي وتفاعلي (لايف أونلاين)</p>
+          </div>
+          <div class="p-8">
+            <h4 class="font-bold text-gray-900 text-lg mb-4 border-r-4 border-brand-gold pr-3">
+              محتوى الدورة الميداني (6 جلسات مكثفة):
+            </h4>
+            <ul class="space-y-3 text-gray-700 mb-8 text-sm md:text-base">
+              <li class="flex items-start gap-2">
+                <span class="text-green-600 font-bold">✔</span> <strong>الجلسة 1:</strong> طبيعة الحسابات، فك شفرة
+                المدين
+                والدائن، ونظرية القيد المزدوج باحترافية.
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-green-600 font-bold">✔</span> <strong>الجلسة 2:</strong> قيود العمليات التشغيلية
+                (المشتريات، المبيعات، وإدارة المخزون دفترياً).
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-green-600 font-bold">✔</span> <strong>الجلسة 3:</strong> المعالجات النقدية الدقيقة
+                (حسابات الصندوق، حركة البنوك، والتسويات المصرفية).
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-green-600 font-bold">✔</span> <strong>الجلسة 4:</strong> محاسبة الرواتب والأجور،
+                والعهد
+                العمالية والمصروفات النثرية.
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-green-600 font-bold">✔</span> <strong>الجلسة 5:</strong> التسويات الجردية الشاملة،
+                احتساب
+                الإهلاكات، والمقدمات والمستحقات.
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-green-600 font-bold">✔</span> <strong>الجلسة 6:</strong> إعداد ميزان المراجعة، وتقفيل
+                الحسابات، واستخراج القوائم المالية النهائية.
+              </li>
+            </ul>
+
+            <div class="bg-emerald-50 text-emerald-900 p-4 rounded-2xl border border-emerald-100 text-sm mb-4">
+              <p class="font-bold mb-1">🎯 هذا البرنامج مصمم خصيصاً لـ:</p>
+              <p>
+                خريجي كلية التجارة، ومحاسبي الشركات المبتدئين الذين يريدون التوقّف عن العمل العشوائي والفهم العميق
+                وراء
+                الأرقام، لتقديم توصيات موثوقة للإدارة.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="p-8 bg-gray-50 border-t border-gray-100 text-center">
+          <div class="text-3xl font-extrabold text-brand-navy mb-1">
+            750 جنيه فقط
+            <span class="text-sm text-gray-400 line-through">السعر الأصلي: 1,200 جنيه</span>
+          </div>
+          <div class="inline-block text-xs font-bold text-amber-700 bg-amber-100 px-3 py-1 rounded-full">
+            💳 تقسيط مريح: 400 + 400 جنيه
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 reveal flex flex-col justify-between transform hover:-translate-y-1 transition duration-300">
+        <div>
+          <div class="bg-amber-600 text-white p-8 text-center relative">
+            <div class="text-6xl mb-4">📚</div>
+            <h3 class="text-2xl md:text-3xl font-bold mb-1">كتاب "من القيود إلى القوائم"</h3>
+            <p class="text-amber-100 font-bold text-sm">مرجع تطبيقي شامل في المحاسبة العملية</p>
+          </div>
+          <div class="p-8">
+            <h4 class="font-bold text-gray-900 text-lg mb-4 border-r-4 border-amber-600 pr-3">
+              مواصفات ومحتويات المرجع المتميز:
+            </h4>
+            <p class="text-gray-600 text-sm mb-4 leading-relaxed">
+              كتاب مصمّم بعناية فائقة يحتوي على ما يجاوز <strong>70 صفحة</strong> من الشروحات المركزة والتطبيقية تماماً
+              بدون حشو أكاديمي.
+            </p>
+            <ul class="space-y-3 text-gray-700 mb-8 text-sm md:text-base">
+              <li class="flex items-start gap-2">
+                <span class="text-amber-600 font-bold">✔</span> <strong>حالة دراسية واقعية:</strong> مبني بالكامل على
+                حركة
+                شركة مصرية حقيقية ("رامي للتجارة").
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-amber-600 font-bold">✔</span> <strong>10 أجزاء تفصيلية:</strong> يغطي شجرة
+                الحسابات،
+                الدورة المستندية، والقانون الضريبي والمحاسبي المصري.
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-amber-600 font-bold">✔</span> <strong>تطبيقات وحلول:</strong> ملحق كامل يحتوي على أكثر
+                من
+                20 عملية مركبة وحلولها النموذجية.
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="text-amber-600 font-bold">✔</span> <strong>صيغة رقمية PDF عالية الجودة:</strong> تقرأها من
+                أي
+                جهاز ومتاحة معك مدى الحياة كمرجع دائم في عملك.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="p-8 bg-gray-50 border-t border-gray-100 text-center">
+          <div class="text-3xl font-extrabold text-amber-700 mb-1">149 جـنية</div>
+          <p class="text-sm text-gray-500">سعر الإطلاق الرسمي للإصدار الأول 2026</p>
+          <p class="text-xs text-amber-600 font-bold mt-2">
+            🎁 الاستلام الفوري عبر البريد أو الواتساب
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="career-infographic" class="py-16 bg-white border-b border-gray-100">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold text-gray-950 mb-2 reveal">خريطة ومسيرة العمل التدريبية والميدانية</h2>
+      <p class="text-gray-600 mb-10 max-w-xl mx-auto text-sm md:text-base reveal">
+        ملخص بصري تفصيلي يوضح كيف تحولت الخبرة الميدانية إلى منهج معايشة واقعي يسد الفجوة الأكاديمية
+      </p>
+
+      <div class="bg-slate-50 p-4 rounded-3xl shadow-2xl border border-gray-100 max-w-4xl mx-auto transform hover:scale-[1.01] hover:shadow-gray-300 transition duration-300 reveal">
+        <img src="info.png" alt="إنفوجرافيك السيرة الذاتية والمسيرة المهنية لـ محمد رامي" class="w-full h-auto rounded-2xl mx-auto" />
+      </div>
+
+      <div class="max-w-3xl mx-auto reveal mt-8">
+        <p class="text-xl font-bold text-brand-navy leading-relaxed text-center">
+          لأن الخبرة لا تُباع بل تُنقل من جيل إلى جيل… 25 عاماً في سطور
+        </p>
+        <p class="text-sm text-gray-600 text-center mt-2">
+          من مندوب مبيعات ميداني إلى مدير مالي لشركات إقليمية، عبر رحلة ممتدة في مجال التدريب والمحاسبة الميدانية.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-16 bg-gray-50 border-b border-gray-100">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold text-gray-950 mb-4 reveal">ماذا يقول طلابنا؟</h2>
+      <p class="text-gray-600 mb-12 max-w-xl mx-auto reveal">
+        آراء حقيقية لمتدربين وطلاب تشرفت بالعمل معهم
+      </p>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 reveal">
+        <div class="bg-white p-2 rounded-2xl shadow-md border border-gray-100">
+          <img src="review1.jpg" alt="رأي وتقييم أحد أبنائي الطلاب" class="w-full h-auto rounded-xl" />
+          <p class="text-sm text-gray-700 mt-2 px-2">
+            "حضرت الدورة كخريج جديد، وفهمت المدين والدائن في أقل من أسبوع. الآن أتعامل مع ERP بثقة كاملة!" – أحمد
+            خ.،
+            محاسب مبتدئ في شركة توزيع.
+          </p>
+        </div>
+        <div class="bg-white p-2 rounded-2xl shadow-md border border-gray-100">
+          <img src="review2.jpg" alt="تقييم حقيقي من أحد أبنائي الطلاب" class="w-full h-auto rounded-xl" />
+          <p class="text-sm text-gray-700 mt-2 px-2">
+            "أعطاني نظام رامي أدوات عملية استخدمتها في أول شهرين من العمل، وكان مفتاحاً للاستمرارية في وظيفتي." –
+            سارة
+            أ.، خريجة كلية التجارة.
+          </p>
+        </div>
+        <div class="bg-white p-2 rounded-2xl shadow-md border border-gray-100">
+          <img src="review3.jpg" alt="شهادة من أحد طلابي" class="w-full h-auto rounded-xl" />
+          <p class="text-sm text-gray-700 mt-2 px-2">
+            "الكتاب معي في الشركة طوال الوقت كمرجع. أكرّر من استخدمه في الدورة لتدريب زملائي الجدد." – محمد ع.,
+            محاسب مالي في شركة إقليمية.
+          </p>
+        </div>
+        <div class="bg-white p-2 rounded-2xl shadow-md border border-gray-100">
+          <img src="review4.jpg" alt="شهادة أعتز بها من طلابي" class="w-full h-auto rounded-xl" />
+          <p class="text-sm text-gray-700 mt-2 px-2">
+            "كنت أعمل في المبيعات، وقررت التنقل إلى المحاسبة عبر كورس رامي، وبدأت في وظيفة محاسب في أقل من 3 أشهر." –
+            كريم
+            س.، خريج مبيعات.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="offer" class="py-20 navy-gradient text-white relative">
+    <div class="max-w-4xl mx-auto px-6 text-center relative z-10">
+      <div class="bg-white/5 backdrop-blur-xl rounded-3xl p-8 md:p-12 border border-white/10 shadow-2xl reveal">
+        <span class="text-brand-gold font-black text-sm md:text-base block mb-4 uppercase tracking-wider">
+          ✨ لفترة محدودة للغاية لأعضاء الجروب ✨
+        </span>
+        <h2 class="text-3xl md:text-5xl font-black text-white mb-2">🎁 العرض الذهبي الشامل</h2>
+        <p class="text-gray-300 text-base md:text-lg mb-8 max-w-xl mx-auto">
+          احصل على المنظومة المهنية المتكاملة التي تضمن انتقالك الفعلي من مقاعد الدراسة إلى كرسي المحاسب المحترف
+          بأكبر توفير مالي!
+        </p>
+
+        <div class="flex justify-center gap-3 mb-10" id="countdown">
+          <div class="countdown-box">
+            <div class="countdown-number" id="days">02</div>
+            <div class="text-xs text-gray-400 mt-1">يوم</div>
+          </div>
+          <div class="countdown-box">
+            <div class="countdown-number" id="hours">14</div>
+            <div class="text-xs text-gray-400 mt-1">ساعة</div>
+          </div>
+          <div class="countdown-box">
+            <div class="countdown-number" id="minutes">45</div>
+            <div class="text-xs text-gray-400 mt-1">دقيقة</div>
+          </div>
+          <div class="countdown-box">
+            <div class="countdown-number" id="seconds">22</div>
+            <div class="text-xs text-gray-400 mt-1">ثانية</div>
+          </div>
+        </div>
+
+        <div class="bg-white text-gray-900 rounded-3xl p-6 md:p-8 max-w-lg mx-auto border-4 border-brand-gold shadow-2xl transform scale-105 mb-8">
+          <div class="text-sm font-black text-amber-700 bg-amber-100 inline-block px-4 py-1 rounded-full mb-3">
+            🔥 الباقة الأكثر طلباً وتوفيراً
+          </div>
+          <h3 class="text-2xl font-bold text-brand-navy mb-4">
+            باقة المحاسب الميداني المحترف
+          </h3>
+
+          <div class="space-y-3 text-right text-sm md:text-base text-gray-700 mb-6 border-b border-gray-100 pb-6">
+            <p class="flex items-center gap-2">
+              <span class="text-green-600 font-bold">✔</span>
+              <span>
+                الدورة التدريبية الحية "من القيد إلى القوائم"
+                <strong>(قيمتها 750 ج)</strong>
+              </span>
+            </p>
+            <p class="flex items-center gap-2">
+              <span class="text-green-600 font-bold">✔</span>
+              <span>
+                نسخة مرجع المحاسبة العملية الشامل
+                160 ألف حرف
+                <strong>(قيمته 149 ج)</strong>
+              </span>
+            </p>
+            <p class="flex items-center gap-2 text-brand-navy font-bold">
+              <span class="text-brand-gold text-xl">🎁</span>
+              <span>
+                <strong>هدية 1:</strong> كتاب "المدخل السهل لفهم الإكسيل للمحاسبين" كاملاً.
+              </span>
+            </p>
+            <p class="flex items-center gap-2 text-brand-navy font-bold">
+              <span class="text-brand-gold text-xl">🎁</span>
+              <span>
+                <strong>هدية 2:</strong> الحقيبة الجاهزة من ملفات الـ Excel الدفترية لشركات حقيقية.
+              </span>
+            </p>
+            <p class="flex items-center gap-2 text-brand-navy font-bold">
+              <span class="text-brand-gold text-xl">🎁</span>
+              <span>
+                <strong>هدية 3:</strong> انضمام فوري لجروب الدعم والاستشارات الخاص والمغلق للمتدربين.
+              </span>
+            </p>
+          </div>
+
+          <div class="text-center mb-4">
+            <span class="text-gray-400 line-through text-lg block">بدلاً من 899 جـنية</span>
+            <span class="text-4xl md:text-5xl font-black text-emerald-600 block my-1">
+              600 جـنية فقط!
+            </span>
+            <span class="text-xs font-bold text-red-600 block">
+              🔥 خصم 33% ووفرت 299 جنيه كاملة
+            </span>
+          </div>
+        </div>
+
+        <div class="max-w-xl mx-auto bg-brand-gold/10 border border-brand-gold/30 rounded-2xl p-6 text-right mb-8">
+          <p class="text-brand-gold font-bold text-lg mb-1 flex items-center gap-2">
+            🛡️ ضمان رامي الفولاذي والأمين لاسترداد الأموال:
+          </p>
+          <p class="text-sm text-gray-300 leading-relaxed">
+            احجز مقعدك اليوم بكل أمان. احضر الجلسة الأولى كاملة وتفاعل معي، إن شعرت أن المحتوى ليس عملياً أو لم يُضِف
+            لك
+            قيمة تفوق ما دفعته، اطلب استرداد tiềnك فوراً وبدون شروط معقدة. ثقتي في جودة ما أقدمه لك مطلقة.
+          </p>
+        </div>
+
+        <div class="mt-4">
+          <a href="https://wa.me/201271411127?text=مرحباً%20أستاذ%20محمد،%20أريد%20حجز%20العرض%20الذهبي%20المتكامل%20شاملاً%20الكورس%20والكتاب%20والهدايا%20بـ%20600%20جنيه"
+            target="_blank" class="btn-gold text-xl px-12 py-5 block sm:inline-block w-full sm:w-auto shadow-2xl">
+            ⚡ نعم! أريد حجز مقعدي واستلام الحقيبة كاملة الآن
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 px-6 max-w-4xl mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-2 text-gray-950 reveal">
+      الأسئلة الشائعة التي تهمك
+    </h2>
+    <p class="text-center text-gray-600 mb-12 reveal">
+      كل ما تود معرفته عن نظام وطريقة التدريب
+    </p>
+
+    <div class="space-y-4">
+      <div class="faq-item bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden reveal">
+        <button class="faq-trigger w-full p-6 text-right flex justify-between items-center font-bold text-lg text-gray-900 hover:bg-gray-50 transition"
+          onclick="toggleFaq(this)">
+          <span>هل أحتاج لخلفية قوية في المحاسبة للاستفادة من الدورة؟</span>
+          <span class="faq-icon text-xl text-brand-gold">▼</span>
+        </button>
+        <div class="faq-answer px-6 pb-6 text-gray-600 text-sm md:text-base leading-relaxed">
+          بالتأكيد لا. نحن نبدأ من الصفر تماماً (من أول طبيعة الحسابات وسبب التسمية بمدين ودائن)، الدورة مصممة خصيصاً
+          لتبسيط المادة الأكاديمية الصعبة وجعلها سهلة الفهم للجميع.
+        </div>
+      </div>
+
+      <div class="faq-item bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden reveal">
+        <button class="faq-trigger w-full p-6 text-right flex justify-between items-center font-bold text-lg text-gray-900 hover:bg-gray-50 transition"
+          onclick="toggleFaq(this)">
+          <span>ما هي طبيعة الجلسات؟ هل هي مباشرة أم مسجلة؟</span>
+          <span class="faq-icon text-xl text-brand-gold">▼</span>
+        </button>
+        <div class="faq-answer px-6 pb-6 text-gray-600 text-sm md:text-base leading-relaxed">
+          الجلسات تفاعلية ومباشرة (لايف أونلاين)، لتتمكن من مناقشتي وطرح الأسئلة مباشرة. ومع ذلك، يتم تسجيل كافة
+          المحاضرات بجودة عالية وتوفيرها لك لتتمكن من مراجعتها في أي وقت تشاء.
+        </div>
+      </div>
+
+      <div class="faq-item bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden reveal">
+        <button class="faq-trigger w-full p-6 text-right flex justify-between items-center font-bold text-lg text-gray-900 hover:bg-gray-50 transition"
+          onclick="toggleFaq(this)">
+          <span>كيف سأستلم كتاب المحاسبة العملية وهل يغطي قوانين مصر؟</span>
+          <span class="faq-icon text-xl text-brand-gold">▼</span>
+        </button>
+        <div class="faq-answer px-6 pb-6 text-gray-600 text-sm md:text-base leading-relaxed">
+          تستلم الكتاب رقمياً بصيغة PDF فورياً بعد الاشتراك. نعم، الكتاب مبني بالكامل على حالة شركة مصرية حقيقية ويراعي
+          النظم الضريبية، التأمينية، وقانون العمل المصري الحالي.
+        </div>
+      </div>
+
+      <div class="faq-item bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden reveal">
+        <button class="faq-trigger w-full p-6 text-right flex justify-between items-center font-bold text-lg text-gray-900 hover:bg-gray-50 transition"
+          onclick="toggleFaq(this)">
+          <span>ما هي طرق الدفع والتسهيلات المتاحة؟</span>
+          <span class="faq-icon text-xl text-brand-gold">▼</span>
+        </button>
+        <div class="faq-answer px-6 pb-6 text-gray-600 text-sm md:text-base leading-relaxed">
+          نوفر لك كافة طرق الدفع المريحة داخل مصر: محفظة كاش (Orange Cash)، إنستا باي (InstaPay)، والتحويلات البنكية
+          المباشرة. كما يمكنك تقسيط رسوم الكورس المنفرد على دفعتين (400 جنيه + 400 جنيه) تيسيراً عليك.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-20 bg-slate-900 text-white text-center relative overflow-hidden">
+    <div class="max-w-4xl mx-auto px-6 relative z-10">
+      <h2 class="text-3xl md:text-4xl font-extrabold mb-4 reveal">
+        ابدأ رحلتك المهنية الصحيحة اليوم
+      </h2>
+      <p class="text-xl text-gray-400 mb-10 max-w-xl mx-auto reveal">
+        لا تدع شهوراً أخرى تضيع في الانتظار العشوائي، تواصل معي الآن مباشرة وسأجيبك على كل استفساراتك.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center items-center reveal">
+        <a href="https://wa.me/201271411127" target="_blank" class="btn-gold text-lg w-full sm:w-auto">
+          📱 تواصل سريع عبر واتساب
+        </a>
+        <a href="mailto:mhdramy@gmail.com" class="bg-white/10 text-white font-bold py-4 px-8 rounded-full hover:bg-white/20 transition border border-white/20 text-lg w-full sm:w-auto">
+          📧 mhdramy@gmail.com
+        </a>
+      </div>
+      <p class="mt-8 text-sm text-gray-500 reveal">
+        المقر التدريبي والإداري: بني سويف، جمهورية مصر العربية
+      </p>
+    </div>
+  </section>
+
+  <footer class="bg-slate-950 text-white py-12 text-center border-t border-gray-900">
+    <p class="text-gray-500 text-sm md:text-base">
+      © 2026 محمد رامي - Ramy Accounting Academy. جميع الحقوق محفوظة.
+    </p>
+    <p class="text-brand-gold font-bold text-xs md:text-sm mt-3 tracking-wide">
+      "لا أعلّم المحاسبة فقط… بل أُعدّ محاسبين جاهزين لسوق العمل بكل ثقة"
+    </p>
+  </footer>
+
+  <script>
+    let countdownDuration = 2 * 24 * 60 * 60 * 1000;
+    let endDate = new Date().getTime() + countdownDuration;
+
+    function updateCountdown() {
+      const now = new Date().getTime();
+      const distance = endDate - now;
+
+      if (distance < 0) {
+        document.getElementById("countdown").innerHTML =
+          '<div class="text-2xl font-bold text-brand-gold">⏳ ينتهي الخصم قريباً جداً.. تواصل معنا لحجز مقعدك!</div>';
+        return;
+      }
+
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      document.getElementById("days").innerText = String(days).padStart(2, '0');
+      document.getElementById("hours").innerText = String(hours).padStart(2, '0');
+      document.getElementById("minutes").innerText = String(minutes).padStart(2, '0');
+      document.getElementById("seconds").innerText = String(seconds).padStart(2, '0');
+    }
+
+    setInterval(updateCountdown, 1000);
+    updateCountdown();
+
+    function toggleFaq(button) {
+      const item = button.parentElement;
+      const answer = button.nextElementSibling;
+      const isOpen = item.classList.contains("open");
+
+      document.querySelectorAll(".faq-item").forEach((el) => {
+        el.classList.remove("open");
+        el.querySelector(".faq-answer").classList.remove("open");
+      });
+      if (!isOpen) {
+        item.classList.add("open");
+        answer.classList.add("open");
+      }
+    }
+
+    const revealElements = document.querySelectorAll(".reveal");
+    const revealObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+    revealElements.forEach((el) => revealObserver.observe(el));
+  </script>
+</body>
+
+</html>
